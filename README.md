@@ -95,7 +95,7 @@ PORT=3011
 
 PRODUCT_NAME=YourProductName
 
-# CORS Configuration (if needed)
+-- CORS Configuration (if needed)
 
 FRONTEND_URL=http://localhost:3010
 
