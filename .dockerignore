@@ -1,0 +1,48 @@
+# Build context optimization
+Dockerfile*
+.dockerignore
+README.md
+.git
+.gitignore
+
+# Dependencies (will be installed in container)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env*
+!.env.example
+
+# Development files
+test
+coverage
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+
+# Build artifacts
+.next
+dist
+*.log
+*.tgz
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+
+# CI/CD files
+.github
+kubernetes
+
+# Documentation
+docs
+*.md
+!README.md
+
+# Logs and uploads
+logs
+uploads
